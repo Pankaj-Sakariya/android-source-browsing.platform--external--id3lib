@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "id3lib", "id3lib.vcproj", "{9388DDE8-4580-449D-BD1C-54132832EB7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C09E9E48-8707-465B-935D-D4B0D1B74999} = {C09E9E48-8707-465B-935D-D4B0D1B74999}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\zlib\prj\zlib.vcproj", "{C09E9E48-8707-465B-935D-D4B0D1B74999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		NASM Debug|Win32 = NASM Debug|Win32
+		NASM Release|Win32 = NASM Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.Debug|Win32.Build.0 = Debug|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.NASM Debug|Win32.ActiveCfg = Debug|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.NASM Debug|Win32.Build.0 = Debug|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.NASM Release|Win32.ActiveCfg = Release|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.NASM Release|Win32.Build.0 = Release|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.Release|Win32.ActiveCfg = Release|Win32
+		{9388DDE8-4580-449D-BD1C-54132832EB7F}.Release|Win32.Build.0 = Release|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.Debug|Win32.Build.0 = Debug|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.NASM Debug|Win32.ActiveCfg = NASM Debug|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.NASM Debug|Win32.Build.0 = NASM Debug|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.NASM Release|Win32.ActiveCfg = NASM Release|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.NASM Release|Win32.Build.0 = NASM Release|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.Release|Win32.ActiveCfg = Release|Win32
+		{C09E9E48-8707-465B-935D-D4B0D1B74999}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
