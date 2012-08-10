@@ -44,7 +44,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=".\;..\;..\include;..\include\id3;&quot;$(ProjectDir)..\..\zlib-1.2.3&quot;"
+				AdditionalIncludeDirectories=".\;..\;..\include;..\include\id3;&quot;$(ProjectDir)..\..\zlib&quot;"
 				PreprocessorDefinitions="_DEBUG;WIN32;_USRDLL;DLL_EXPORTS;_WINDOWS;HAVE_CONFIG_H;ID3LIB_LINKOPTION=2;ZLIB_WINAPI;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="false"
 				RuntimeLibrary="3"
@@ -120,7 +120,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="0"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories=".\;..\;..\include;..\include\id3;&quot;$(ProjectDir)..\..\zlib-1.2.3&quot;"
+				AdditionalIncludeDirectories=".\;..\;..\include;..\include\id3;&quot;$(ProjectDir)..\..\zlib&quot;"
 				PreprocessorDefinitions="NDEBUG;WIN32;_USRDLL;DLL_EXPORTS;_WINDOWS;HAVE_CONFIG_H;ID3LIB_LINKOPTION=2;ZLIB_WINAPI;_CRT_SECURE_NO_WARNINGS"
 				RuntimeLibrary="2"
 				EnableEnhancedInstructionSet="1"
