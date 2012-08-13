@@ -56,7 +56,7 @@ DYNLIB=libid3tag.so
 
 all: ../config.h $(LIBRARY)
 
-include ../../../source/common.mak
+include ../../../jumper/source/common.mak
 
 
 #
